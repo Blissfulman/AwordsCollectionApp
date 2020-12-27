@@ -75,6 +75,13 @@ struct CurvesView: View {
                     endAngle: .degrees(270),
                     clockwise: true
                 )
+                path.addArc(
+                    center: CGPoint(x: nearLine, y: nearLine),
+                    radius: middle,
+                    startAngle: .degrees(90),
+                    endAngle: .degrees(0),
+                    clockwise: true
+                )
             }
             .stroke(Color.orange, lineWidth: 2)
         }

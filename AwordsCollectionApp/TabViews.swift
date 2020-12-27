@@ -11,7 +11,7 @@ import SwiftUI
 struct TabViews: View {
     var body: some View {
         TabView {
-            ContentView()
+            AnimationsView()
                 .tabItem {
                     Image(systemName: "rosette")
                     Text("ContentView")

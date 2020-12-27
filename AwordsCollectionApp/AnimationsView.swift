@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  AnimationsView.swift
 //  AwordsCollectionApp
 //
 //  Created by Alexey Efimov on 05.08.2020.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct AnimationsView: View {
     @State private var showShape = false
     
     var body: some View {
@@ -50,6 +50,6 @@ extension AnyTransition {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        AnimationsView()
     }
 }

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A80551D324DB159D00575B7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80551D224DB159D00575B7A /* ContentView.swift */; };
+		A80551D324DB159D00575B7A /* AnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80551D224DB159D00575B7A /* AnimationsView.swift */; };
 		A80551D524DB15A100575B7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80551D424DB15A100575B7A /* Assets.xcassets */; };
 		A80551D824DB15A100575B7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80551D724DB15A100575B7A /* Preview Assets.xcassets */; };
 		A80551DB24DB15A100575B7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80551D924DB15A100575B7A /* LaunchScreen.storyboard */; };
@@ -17,11 +17,12 @@
 		A80551E924DB173900575B7A /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80551E824DB173900575B7A /* PathView.swift */; };
 		A80551EB24DB175600575B7A /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80551EA24DB175600575B7A /* CurvesView.swift */; };
 		A808B14C254EAB200043E285 /* AwordsCollectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808B14B254EAB200043E285 /* AwordsCollectionApp.swift */; };
+		CE41D6A225979F4700B2BF64 /* MyShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE41D6A125979F4700B2BF64 /* MyShapeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A80551CB24DB159D00575B7A /* AwordsCollectionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwordsCollectionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A80551D224DB159D00575B7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A80551D224DB159D00575B7A /* AnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsView.swift; sourceTree = "<group>"; };
 		A80551D424DB15A100575B7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A80551D724DB15A100575B7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A80551DA24DB15A100575B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +33,7 @@
 		A80551E824DB173900575B7A /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
 		A80551EA24DB175600575B7A /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
 		A808B14B254EAB200043E285 /* AwordsCollectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwordsCollectionApp.swift; sourceTree = "<group>"; };
+		CE41D6A125979F4700B2BF64 /* MyShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShapeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				A808B14B254EAB200043E285 /* AwordsCollectionApp.swift */,
-				A80551D224DB159D00575B7A /* ContentView.swift */,
 				A80551E424DB161E00575B7A /* TabViews.swift */,
+				A80551D224DB159D00575B7A /* AnimationsView.swift */,
 				A80551E224DB15FB00575B7A /* ShapesView.swift */,
-				A80551E624DB170A00575B7A /* GradientRectangles.swift */,
-				A80551E824DB173900575B7A /* PathView.swift */,
-				A80551EA24DB175600575B7A /* CurvesView.swift */,
+				CE41D69E25979EE000B2BF64 /* Shapes */,
 				A80551D424DB15A100575B7A /* Assets.xcassets */,
 				A80551D924DB15A100575B7A /* LaunchScreen.storyboard */,
 				A80551DC24DB15A100575B7A /* Info.plist */,
@@ -85,6 +85,17 @@
 				A80551D724DB15A100575B7A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE41D69E25979EE000B2BF64 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				CE41D6A125979F4700B2BF64 /* MyShapeView.swift */,
+				A80551E624DB170A00575B7A /* GradientRectangles.swift */,
+				A80551E824DB173900575B7A /* PathView.swift */,
+				A80551EA24DB175600575B7A /* CurvesView.swift */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,8 +173,9 @@
 				A80551E924DB173900575B7A /* PathView.swift in Sources */,
 				A808B14C254EAB200043E285 /* AwordsCollectionApp.swift in Sources */,
 				A80551E324DB15FB00575B7A /* ShapesView.swift in Sources */,
-				A80551D324DB159D00575B7A /* ContentView.swift in Sources */,
+				A80551D324DB159D00575B7A /* AnimationsView.swift in Sources */,
 				A80551EB24DB175600575B7A /* CurvesView.swift in Sources */,
+				CE41D6A225979F4700B2BF64 /* MyShapeView.swift in Sources */,
 				A80551E724DB170A00575B7A /* GradientRectangles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
