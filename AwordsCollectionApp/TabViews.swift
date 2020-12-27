@@ -14,7 +14,13 @@ struct TabViews: View {
             AnimationsView()
                 .tabItem {
                     Image(systemName: "rosette")
-                    Text("ContentView")
+                    Text("Animations View")
+                }
+            
+            MyShapeAnimationView()
+                .tabItem {
+                    Image(systemName: "sparkle")
+                    Text("My Animation")
                 }
             
             ShapesView()

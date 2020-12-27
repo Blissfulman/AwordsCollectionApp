@@ -13,7 +13,10 @@ struct ShapesView: View {
         NavigationView {
             VStack {
                 ScrollView {
-                    MyShapeView(width: 250, height: 250)
+                    MyShapeView(width: 250,
+                                height: 250,
+                                isShown: .constant(true),
+                                isAnimated: .constant(false))
                     GradientRectangles(width: 250, height: 250)
                     PathView(width: 250, height: 250)
                     CurvesView(width: 250, height: 250)

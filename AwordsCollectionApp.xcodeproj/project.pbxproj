@@ -18,6 +18,7 @@
 		A80551EB24DB175600575B7A /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80551EA24DB175600575B7A /* CurvesView.swift */; };
 		A808B14C254EAB200043E285 /* AwordsCollectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808B14B254EAB200043E285 /* AwordsCollectionApp.swift */; };
 		CE41D6A225979F4700B2BF64 /* MyShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE41D6A125979F4700B2BF64 /* MyShapeView.swift */; };
+		CECDC916259886B700D9F7F0 /* MyShapeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECDC915259886B700D9F7F0 /* MyShapeAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		A80551EA24DB175600575B7A /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
 		A808B14B254EAB200043E285 /* AwordsCollectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwordsCollectionApp.swift; sourceTree = "<group>"; };
 		CE41D6A125979F4700B2BF64 /* MyShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShapeView.swift; sourceTree = "<group>"; };
+		CECDC915259886B700D9F7F0 /* MyShapeAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShapeAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				A808B14B254EAB200043E285 /* AwordsCollectionApp.swift */,
 				A80551E424DB161E00575B7A /* TabViews.swift */,
 				A80551D224DB159D00575B7A /* AnimationsView.swift */,
+				CECDC915259886B700D9F7F0 /* MyShapeAnimationView.swift */,
 				A80551E224DB15FB00575B7A /* ShapesView.swift */,
 				CE41D69E25979EE000B2BF64 /* Shapes */,
 				A80551D424DB15A100575B7A /* Assets.xcassets */,
@@ -174,6 +177,7 @@
 				A808B14C254EAB200043E285 /* AwordsCollectionApp.swift in Sources */,
 				A80551E324DB15FB00575B7A /* ShapesView.swift in Sources */,
 				A80551D324DB159D00575B7A /* AnimationsView.swift in Sources */,
+				CECDC916259886B700D9F7F0 /* MyShapeAnimationView.swift in Sources */,
 				A80551EB24DB175600575B7A /* CurvesView.swift in Sources */,
 				CE41D6A225979F4700B2BF64 /* MyShapeView.swift in Sources */,
 				A80551E724DB170A00575B7A /* GradientRectangles.swift in Sources */,
